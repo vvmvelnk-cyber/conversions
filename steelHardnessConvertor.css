@@ -327,7 +327,7 @@ li{
     text-align: justify;
 }
 
-.producer:hover, .producerInfo:hover {
+.producerLink:hover {
     background-color: #559;
     color: white;
 }
