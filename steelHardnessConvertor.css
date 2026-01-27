@@ -320,14 +320,14 @@ li{
     text-decoration: none;
 }
 
-.producerInfo {
+/*.producerInfo {
     color: black;
     font-size: 16px;
     padding-top: 10px;
     text-align: justify;
-}
+}*/
 
-.producerLink:hover, .producerInfo:hover{
+.producer:hover {
     background-color: #559;
     color: white;
 }
