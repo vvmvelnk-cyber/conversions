@@ -320,22 +320,22 @@ li{
     text-decoration: none;
 }
 
-/*.producerInfo {
+.producerInfo {
     color: black;
     font-size: 16px;
     padding-top: 10px;
     text-align: justify;
-}*/
+}
 
-.producer:hover {
+.producer:hover, .producerInfo:hover {
     background-color: #559;
     color: white;
 }
 
-.producerImages{
+/*.producerImages{
     display: block;
     align-content: normal;
-}
+}*/
 
 .producerImages img{
     margin: 10px;
