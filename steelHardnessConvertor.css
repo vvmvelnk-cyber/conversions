@@ -332,10 +332,10 @@ li{
     color: white;
 }
 
-/*.producerImages{
+.producerImages{
     display: block;
     align-content: normal;
-}*/
+}
 
 .producerImages img{
     margin: 10px;
