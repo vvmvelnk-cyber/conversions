@@ -8,8 +8,10 @@
 
 html {
    text-align: center;
-   background-color: #ffffff;
-   
+   background-color: black;
+   height: 100%;   
+   place-items: center;
+   justify-content: center;
 }
 
 body {
@@ -24,9 +26,10 @@ body {
 }
 
 #org {
-    position: absolute;
-    top: 5px;
-    left: 15px;
+    position: relative;
+    width: 10rem;
+    padding-top: 5px;
+    margin-left: 15px;
     border-bottom: 4px solid lightgray;
     border-bottom-style: groove;
     color: lightgray;
@@ -46,7 +49,7 @@ header {
     font-family: 'Arial Narrow', sans-serif;
     font-size: 32px;
     font-weight: 700;
-    padding-top: 40px;
+    margin-top: 10px;
     color: darkblue;
 }
 
@@ -261,9 +264,10 @@ input:hover {
 }
 
 #email{
-    font-size: 28px;
-    margin: auto 100px auto auto;
-    color: darkblue;
+    font-size: 22px;
+    margin: auto 0px auto auto;
+    /*margin-right: 0px;*/
+    color: #eee;
 }
 
 .field2{
