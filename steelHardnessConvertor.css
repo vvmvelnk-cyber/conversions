@@ -8,7 +8,8 @@
 
 html {
    text-align: center;
-   background-color: #ffffff;   
+   background-color: #ffffff;
+   
 }
 
 body {
@@ -367,6 +368,7 @@ li{
     }
     body{
         border: 2px solid #999;
+        max-width: 1500px;
     }
     #chead1row1, #chead1row2, .a1 {
     font-size: 16px;
